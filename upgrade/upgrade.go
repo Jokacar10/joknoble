@@ -57,7 +57,7 @@ func CreateUpgradeHandler(
 		cachedCtx, writeCache = sdkCtx.CacheContext()
 		err = updateOrbiterModuleAccounts(cachedCtx, logger, *accountKeeper)
 		if err != nil {
-			logger.Error("failed to updated Orbiter module accounts", "error", err)
+			logger.Error("failed to update Orbiter module accounts", "error", err)
 		} else {
 			writeCache()
 		}
