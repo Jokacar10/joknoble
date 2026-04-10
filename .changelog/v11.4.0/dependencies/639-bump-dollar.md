@@ -1,0 +1,1 @@
+- Bump Dollar to [`v2.3.0`](https://github.com/noble-assets/dollar/releases/tag/v2.3.0) to introduce logic that handles the end of Vaults Season Two. ([#639](https://github.com/noble-assets/noble/pull/639))
